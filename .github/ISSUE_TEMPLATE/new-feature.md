@@ -10,7 +10,5 @@ type: Feature
 ### Goal
 //Provide an overview of the feature, focusing on the why and the value to customers.
 
-### Acceptance criteria
-
 
 
