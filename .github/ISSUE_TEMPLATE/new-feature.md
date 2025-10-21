@@ -1,14 +1,23 @@
----
-name: New feature
-about: Create a feature for an idea or new function
-type: Feature
----
+name: "New scope"
+about: "A deliverable part of a shaped pitch"
+type: Scope
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Purpose
+        A scope represents one meaningful piece of a pitch that can be completed and demoed independently.
 
-### User Story
-//Paint a picture of the scenario in which the customer will experience and use this feature.
+  - type: input
+    id: outcome
+    attributes:
+      label: "Desired Outcome"
+      description: "What will be true once this scope is complete?"
+      placeholder: "e.g. User can reset password via email link"
 
-### Goal
-//Provide an overview of the feature, focusing on the why and the value to customers.
-
-
-
+  - type: textarea
+    id: approach
+    attributes:
+      label: "Approach / Notes"
+      description: "How do we intend to implement this?"
+      placeholder: "Describe the approach at a high level including sketches, pseudo-code, etc..."
